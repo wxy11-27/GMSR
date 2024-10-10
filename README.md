@@ -44,7 +44,7 @@ python train_data_preprocess.py --data_path './data/Dataset' --patch_size 128 --
 
 # Getting the prepared valid data by run:
 python valid_data_preprocess.py --data_path './data/Dataset' --valid_data_path './dataset/2020Val'
-```
+
 ## Training.
 ```shell
 python main.py
