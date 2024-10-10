@@ -1,5 +1,5 @@
 # GMSR: Gradient-Guided Mamba for Spectral Reconstruction from RGB Images
-[Xinying Wang](),  [Zhixiong Huang](), [Sifan Zhang](), [Jiawen Zhu](), [Paolo Gamba](), and [Lin Feng]() 
+[Xinying Wang],  [Zhixiong Huang], [Sifan Zhang], [Jiawen Zhu], [Paolo Gamba], and [Lin Feng]
 
 
 ## GMSR-Net Framework
@@ -45,7 +45,7 @@ python train_data_preprocess.py --data_path './data/Dataset' --patch_size 128 --
 # Getting the prepared valid data by run:
 python valid_data_preprocess.py --data_path './data/Dataset' --valid_data_path './dataset/2020Val'
 ```
-2. #### Training.
+## Training.
 ```shell
 python main.py
 ```
@@ -54,7 +54,7 @@ The data generated during training will be recorded in `/results/GMSR`.
 ```shell
 python test.py
 ```
-- Download the model for NTIRE2020-CLEAN ( [Baidu Disk](https://pan.baidu.com/s/1KTxgNsPgSQYHv6ZJkTstqg), code: `GMSR`))
+- Download the checkpoints ( [Baidu Disk](https://pan.baidu.com/s/1KTxgNsPgSQYHv6ZJkTstqg), code: `GMSR`))
 
 
 ## Citation
