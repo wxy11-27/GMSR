@@ -25,11 +25,8 @@ We propose GMSR-Net, the first Mamba framework designed for SR task.  We are goi
 #### 1. **Created Environment.**
 
 - anaconda NVIDIA GPU
-
-- torch-1.9.0+cu111-cp37-cp37m-linux_x86_64
-
-- torchvision-0.10.0+cu111-cp37-cp37m-linux_x86_64
-
+- python-3.10.9
+- torch-1.12.1
 - pip install causal_conv1d==1.0.0
 - pip install mamba_ssm==1.0.1
 
